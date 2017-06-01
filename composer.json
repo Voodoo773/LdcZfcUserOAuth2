@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "voodoo773/zfc-user": "dev-lang",
+        "zf-commons/zfc-user": "dev-lang",
         "zfcampus/zf-oauth2": "1.*"
     },
     "require-dev": {
