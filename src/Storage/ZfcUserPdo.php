@@ -1,9 +1,9 @@
 <?php
 namespace LdcZfcUserOAuth2\Storage;
 
-use OAuth2\Storage\Pdo as OAuth2Pdo;
+use ZF\OAuth2\Adapter\PdoAdapter;
 
-class ZfcUserPdo extends OAuth2Pdo
+class ZfcUserPdo extends PdoAdapter
 {
     /**
      * @var ZfcUserStorageBridge
